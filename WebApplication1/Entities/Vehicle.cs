@@ -12,7 +12,7 @@ namespace WebApplication1.Entities
     public abstract class Vehicle : IVehicle //Vehicle реализует IVehicle
     {
         public virtual void Move()
-        {
+        { 
             Console.WriteLine("Move");
         }
 
